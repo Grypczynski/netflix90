@@ -20,4 +20,26 @@ public class VideoCassete {
         this.actors = actors;
     }
 
+    public void printOut() {
+        StringBuilder builder = new StringBuilder();
+
+        //| ID | Title | Price | Director | Actors |  tak ma to sie wydrukować
+
+
+        builder.append("|")
+                .append(this.id)
+                .append("|")
+                .append(this.title)
+                .append("|")
+                .append(this.price)
+                .append("|")
+                .append(this.director)
+                .append("|")
+                .append(this.category)
+                .append("|")
+                .append(this.actors)
+                .append("|");
+        System.out.println(builder.toString());
+
+    }
 }

@@ -33,7 +33,7 @@ public class Main2 {
                 Category.DRAMA,
                 actors);
 
-
+        theRoom.printOut();
     }
 
 }
