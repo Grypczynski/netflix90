@@ -4,6 +4,4 @@ public enum Category {
 
     COMEDY, DRAMA, HORROR, MUSICAL, ACTION;
 
-
-
 }
