@@ -33,7 +33,7 @@ public class VideoCassete {
                 .append("|")
                 .append(this.price)
                 .append("|")
-                .append(this.director)
+                .append(this.director.toString())
                 .append("|")
                 .append(this.category)
                 .append("|")

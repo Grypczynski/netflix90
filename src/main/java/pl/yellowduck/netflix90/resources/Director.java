@@ -10,4 +10,7 @@ public class Director extends Person {
 
 
     }
+    public String toString(){
+        return firstName + " " + lastName;
+    }
 }
