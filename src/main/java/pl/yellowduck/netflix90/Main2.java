@@ -3,7 +3,7 @@ package pl.yellowduck.netflix90;
 import pl.yellowduck.netflix90.resources.Actor;
 import pl.yellowduck.netflix90.resources.Category;
 import pl.yellowduck.netflix90.resources.Director;
-import pl.yellowduck.netflix90.resources.VideoCassete;
+import pl.yellowduck.netflix90.resources.VideoCassette;
 
 import java.math.BigDecimal;
 import java.util.HashSet;
@@ -25,7 +25,7 @@ public class Main2 {
         actors.add(julitette);
         actors.add(greg);
 
-        VideoCassete theRoom = new VideoCassete(
+        VideoCassette theRoom = new VideoCassette(
                 "VID001",
                 BigDecimal.valueOf(20),
                 "TheRoom",
